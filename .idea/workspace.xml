@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f90390f-143e-454d-b3db-b1b1cdc88646" name="Changes" comment="BDD using Cucumber and JUnit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitionsForLogin/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitionsForLogin/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitionsForSearch/GoogleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitionsForSearch/TestRunnerForGoogle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Features/GoogleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2ILu4Qr94UzyobeiknP7T23bxH3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Jamal/IdeaProjects/ForCucumber/src/main/java/StepDefinitionsForSearch",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.52068967"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestRunnerForGoogle">
+    <configuration name="Scenario: Check login is successful with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/login.feature" />
+      <option name="GLUE" value="StepDefinitionsForLogin" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ForCucumber" />
+      <option name="NAME_FILTER" value="^Check login is successful with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login is successful with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check login is successful with valid credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Open google search engine and check with specific search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/GoogleSearch.feature" />
+      <option name="GLUE" value="StepDefinitionsForSearch" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ForCucumber" />
+      <option name="NAME_FILTER" value="^Open google search engine and check with specific search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Open google search engine and check with specific search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Open google search engine and check with specific search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ForCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StepDefinitionsForSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StepDefinitionsForSearch" />
+      <option name="MAIN_CLASS_NAME" value="StepDefinitionsForSearch.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ForCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StepDefinitionsForLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StepDefinitionsForLogin" />
+      <option name="MAIN_CLASS_NAME" value="StepDefinitionsForLogin.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerForGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ForCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StepDefinitionsForSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StepDefinitionsForSearch" />
+      <option name="MAIN_CLASS_NAME" value="StepDefinitionsForSearch.TestRunnerForGoogle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunnerForGoogle" />
+        <item itemvalue="Cucumber Java.Scenario: Open google search engine and check with specific search" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Check login is successful with valid credentials" />
+        <item itemvalue="JUnit.TestRunner (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f90390f-143e-454d-b3db-b1b1cdc88646" name="Changes" comment="" />
+      <created>1669972993122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669972993122</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BDD using Cucumber and JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="BDD using Cucumber and JUnit" />
+  </component>
+</project>
